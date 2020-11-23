@@ -1,0 +1,17 @@
+jobs:
+  # Track deployments on the environment.
+- deployment: VMDeploy
+  displayName: deploy Web App
+  pool:
+    vmImage: 'Ubuntu-16.04'
+
+  # Creates an environment if it doesn't exist.
+  environment:
+    name: dev
+    resourceType: VirtualMachine
+  strategy:
+    # Default deployment strategy, more coming...
+    runOnce:
+      deploy:
+        steps:
+        - script: echo my first deployment

@@ -1,0 +1,7 @@
+pytest
+pylint
+jupyter
+pytest-cov
+pandas
+flask
+sqlalchemy
