@@ -2,7 +2,7 @@
 ## Version 1: 11/23/2020
 
 ## General usage notes:
-This repo is a companion to the video located here:
+This repo is a companion to the video located here:https://youtu.be/q3Qx53vLIvM
 
 This repo is meant to help you get started quickly when testing an API model end point created on ml.azure.com
 
